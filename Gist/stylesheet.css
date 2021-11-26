@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'GistX';
+    src: url('GistXLight.eot');
+    src: url('GistXLight.eot?#iefix') format('embedded-opentype'),
+        url('GistXLight.woff2') format('woff2'),
+        url('GistXLight.woff') format('woff'),
+        url('GistXLight.ttf') format('truetype'),
+        url('GistXLight.svg#GistXLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GistX Reg';
+    src: url('GistXReg-Bold.eot');
+    src: url('GistXReg-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GistXReg-Bold.woff2') format('woff2'),
+        url('GistXReg-Bold.woff') format('woff'),
+        url('GistXReg-Bold.ttf') format('truetype'),
+        url('GistXReg-Bold.svg#GistXReg-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GistX Reg';
+    src: url('GistXReg.eot');
+    src: url('GistXReg.eot?#iefix') format('embedded-opentype'),
+        url('GistXReg.woff2') format('woff2'),
+        url('GistXReg.woff') format('woff'),
+        url('GistXReg.ttf') format('truetype'),
+        url('GistXReg.svg#GistXReg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GistX Upr';
+    src: url('GistXUprLight.eot');
+    src: url('GistXUprLight.eot?#iefix') format('embedded-opentype'),
+        url('GistXUprLight.woff2') format('woff2'),
+        url('GistXUprLight.woff') format('woff'),
+        url('GistXUprLight.ttf') format('truetype'),
+        url('GistXUprLight.svg#GistXUprLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GistX Upr';
+    src: url('GistXUprBold.eot');
+    src: url('GistXUprBold.eot?#iefix') format('embedded-opentype'),
+        url('GistXUprBold.woff2') format('woff2'),
+        url('GistXUprBold.woff') format('woff'),
+        url('GistXUprBold.ttf') format('truetype'),
+        url('GistXUprBold.svg#GistXUprBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GistX Upr Reg';
+    src: url('GistXUprReg.eot');
+    src: url('GistXUprReg.eot?#iefix') format('embedded-opentype'),
+        url('GistXUprReg.woff2') format('woff2'),
+        url('GistXUprReg.woff') format('woff'),
+        url('GistXUprReg.ttf') format('truetype'),
+        url('GistXUprReg.svg#GistXUprReg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

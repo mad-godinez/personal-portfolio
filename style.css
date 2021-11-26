@@ -1,0 +1,116 @@
+
+body{
+  margin: 20px;
+  background: /* top, transparent black */
+   linear-gradient( rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)),
+   /* bottom, image */
+  url(images/beach.jpeg);
+  background-repeat: initial;
+  background-blend-mode: darken;
+  max-width: 1000px;
+}
+header{
+  padding-top: 20px;
+  margin: auto;
+  height: 200px;
+}
+header div h1{
+  margin: auto;
+  padding: 40px 100px;
+  font-family: 'playlist';
+  font-size: 105px;
+  color:rgb(219, 124, 51);
+  text-align: center;
+}
+.box{ /* pseudo class box to go 'behind' the heading1 text */
+  background: #101226;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 15px;
+}
+header div a{ /* properties of the contact buttons under the header box */
+  color: #364053;
+  background-color: #92A5B9;
+  padding: 80px 30px 15px;       
+  border-radius: 35px;  
+  filter: drop-shadow(0.15em 0.35em 0.1em rgb(16, 23, 33));
+  position: relative;
+  z-index: 1;
+  margin: 0px 4px;
+}
+header div a:link{ /* properties of the links in the contact buttons */
+  text-decoration: underline;
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
+}
+header div a:visited{
+  font-style: italic;
+}
+header div a:hover{ /* hover behavior: background & text colors swap */
+  background-color: #364053;
+  color: #92A5B9;
+}
+.main-box{
+  background-color: rgba(244, 215, 100, 0.75); 
+  border-radius: 10px;
+  margin-top: 75px;
+  padding: 15px;
+  filter: drop-shadow(0.15em 0.55em 0.3em rgb(16, 23, 33));
+}
+h2, h3{
+  font-family: 'GistX Upr Reg';
+  color: #101226;
+}
+h2{
+  font-size: 32px;
+  letter-spacing: 4px;
+  padding-left: 10px;
+}
+h3{
+  font-size: 22px;
+  padding-left: 25px;
+}
+hr{
+  color: rgb(110, 57, 8); 
+  border-style: dotted;
+}
+p, ul{
+  font-family: 'Rhetoric Book', Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #9D4931;
+  padding: 0px 15px 10px 40px;
+}
+ul{
+  padding-left: 80px !important; /* this rule overrides any competing ones to ensure the list indent is maintained */
+}
+.footer-pics{
+  margin-top: 15px;
+  background-color: #101226;
+  border-radius: 10px;
+  max-height: 220px;
+  width: 280px; 
+  margin-left: 120px;
+}
+.footer-pics p{
+  font-family: 'Rhetoric Book', Arial, sans-serif;
+  font-size: 18px;
+  color: rgb(219, 124, 51);
+  padding-top: 90px;
+  float: left;
+}
+.footer-pics img{
+  height: 170px;
+  image-resolution: inherit;
+  padding: 10px;
+  border-radius: 70px;
+
+}
+.nexus{ /* right justify 2nd image on the same line */
+  float: right;
+  margin-top: auto;
+  margin-right: 120px;
+}
